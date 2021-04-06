@@ -1,0 +1,29 @@
+.blogcard {
+  min-width: 20em;
+  width: 30em;
+  padding: 1em;
+  margin: 0.5em;
+  transition: 0.2s;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.blogcard:hover {
+  transform: scale(1.025);
+}
+
+.blogcard__title {
+  color: var(--accent-color);
+  font-weight: bolder;
+  font-size: x-large;
+  margin: .5em 0;
+}
+
+.blogcard__small {
+  font-style: italic;
+}
+
+.blogcard__description {
+  color: black;
+}
